@@ -1,0 +1,26 @@
+{
+  "name": "react-calculator-database",
+  "version": "1.0.0",
+  "description": "Database for react-calculator repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinzhugao/react-calculator-database.git"
+  },
+  "author": "Kevin Gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinzhugao/react-calculator-database/issues"
+  },
+  "homepage": "https://github.com/kevinzhugao/react-calculator-database#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
