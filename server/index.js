@@ -1,10 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const db = require('../database/index.js');
 
 const app = express();
 const PORT = 8000;
 
 app.use(express.json());
+app.use(cors());
 
 app.post('/history', (req, res) => {
   db.save(req.body.input, req.body.output)
